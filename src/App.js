@@ -14,7 +14,7 @@ function App() {
   </div>
   <div className="right-section">
   <div className="content-wrapper">
-    <p className="main-heading">On air since 2020!</p>
+    <p className="main-heading">On-air since 2020!</p>
     <p className="sub-description">
       Hi! My name is Manoj Kumar from Sydney (Australia). I dive into conversations with people from around the world (or just to myself!) exploring a wide range of topics—from life and work to hobbies, entrepreneurship, business, relationships, and the latest happenings. No subject is off-limits!
     </p>
