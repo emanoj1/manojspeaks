@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+body, html, #root, .container {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  max-width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.show-cover .cover-image {
+  width: 600px; /* Adjust for desired size */
+  height: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.description {
+  font-size: 1.2em;
+  margin-bottom: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.platform-icons, .social-icons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.listen-now {
+  display: block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.additional-links a {
+  font-size: 0.9em;
+  color: #555;
+  text-decoration: none;
+}
+
+.additional-links a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
 }
