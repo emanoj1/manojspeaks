@@ -82,3 +82,49 @@ body, html, #root, .container {
   text-decoration: underline;
 }
 
+/* Mobile layout */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-section, .right-section {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .content-wrapper {
+    padding: 0 20px;
+    max-width: 90%; /* Ensure content fits well on smaller screens */
+    text-align: center; /* Center-align content on mobile */
+  }
+
+  .main-heading {
+    font-size: 1.6em;
+    margin-top: 20px;
+  }
+
+  .sub-description {
+    font-size: 1em;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+
+  .platform-icons, .social-icons {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .listen-now {
+    width: 100%;
+    max-width: 370px;
+    height: 60px;
+    margin: 20px 0;
+  }
+
+  .additional-links {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
