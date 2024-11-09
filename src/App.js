@@ -32,11 +32,11 @@ function App() {
     </a>
     <p className="additional-links">
       <a href="https://randomstrangertalk.com" target="_blank" rel="noopener noreferrer">
-        Also, listen to me on my 2nd podcast, Random Stranger Talk
+        Also, I have another podcast: Random Stranger Talk
       </a>
       <br />
       <a href="https://bento.me/emanoj" target="_blank" rel="noopener noreferrer">
-        Check out my other ventures & activities
+        Check out my other ventures, hobbies & activities!
       </a>
       <br />
       <a href="https://tally.so/r/w8qkjP" target="_blank" rel="noopener noreferrer">
