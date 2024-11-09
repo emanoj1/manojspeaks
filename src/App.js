@@ -27,16 +27,20 @@ function App() {
         <img src={radioRepublicIcon} alt="Radio Republic" className="icon" />
       </a>
     </div>
-    <a href="https://mainplatform.com" className="listen-now">
-      Listen Now
+    <a href="https://podcasters.spotify.com/pod/show/manojspeaks" className="listen-now">
+      See the full list of episodes so far!
     </a>
     <p className="additional-links">
       <a href="https://randomstrangertalk.com" target="_blank" rel="noopener noreferrer">
         Also, listen to me on my 2nd podcast, Random Stranger Talk
       </a>
       <br />
-      <a href="https://other-ventures.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://bento.me/emanoj" target="_blank" rel="noopener noreferrer">
         Check out my other ventures & activities
+      </a>
+      <br />
+      <a href="https://tally.so/r/w8qkjP" target="_blank" rel="noopener noreferrer">
+      For inquiries, feel free to visit my contact page here.
       </a>
     </p>
   </div>
