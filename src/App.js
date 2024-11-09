@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import showCover from './assets/ManojSpeaksShowCover.jpg';
 import applePodcastIcon from './assets/apple-podcast-logo.png';
-import spotifyIcon from './assets/spotify-podcast-logo.png';
+import spotifyIcon from './assets/spotify-icon.png';
 import radioRepublicIcon from './assets/radiopublic-podcast-icon.png';
 function App() {
   return (
@@ -17,13 +17,13 @@ function App() {
       Hi! My name is Manoj Kumar from Sydney (Australia). I dive into conversations with people from around the world (or just to myself!) exploring a wide range of topics—from life and work to hobbies, entrepreneurship, business, relationships, and the latest happenings. No subject is off-limits!
     </p>
     <div className="platform-icons">
-      <a href="https://applepodcasts.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://podcasts.apple.com/us/podcast/manoj-speaks/id1508103734?uo=4" target="_blank" rel="noopener noreferrer">
         <img src={applePodcastIcon} alt="Apple Podcast" className="icon" />
       </a>
-      <a href="https://spotify.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://open.spotify.com/show/0Y0M6w4xyHJcD0qBM5yvnT" target="_blank" rel="noopener noreferrer">
         <img src={spotifyIcon} alt="Spotify" className="icon" />
       </a>
-      <a href="https://radiorepublic.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://radiopublic.com/manoj-speaks-6n0kME" target="_blank" rel="noopener noreferrer">
         <img src={radioRepublicIcon} alt="Radio Republic" className="icon" />
       </a>
     </div>
