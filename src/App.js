@@ -4,6 +4,8 @@ import showCover from './assets/ManojSpeaksShowCover.jpg';
 import applePodcastIcon from './assets/apple-podcast-logo.png';
 import spotifyIcon from './assets/spotify-icon.png';
 import radioRepublicIcon from './assets/radiopublic-podcast-icon.png';
+import podChaserIcon from './assets/podchaser_logo.jpeg';
+
 function App() {
   return (
 <div className="container">
@@ -25,6 +27,9 @@ function App() {
       </a>
       <a href="https://radiopublic.com/manoj-speaks-6n0kME" target="_blank" rel="noopener noreferrer">
         <img src={radioRepublicIcon} alt="Radio Republic" className="icon" />
+      </a>
+      <a href="https://www.podchaser.com/podcasts/manoj-speaks-1968371" target="_blank" rel="noopener noreferrer">
+        <img src={podChaserIcon} alt="Podchaser" className="icon" />
       </a>
     </div>
     <a href="https://podcasters.spotify.com/pod/show/manojspeaks" className="listen-now">
