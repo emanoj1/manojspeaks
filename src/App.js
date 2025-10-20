@@ -25,9 +25,6 @@ function App() {
       <a href="https://open.spotify.com/show/0Y0M6w4xyHJcD0qBM5yvnT" target="_blank" rel="noopener noreferrer">
         <img src={spotifyIcon} alt="Spotify" className="icon" />
       </a>
-      <a href="https://radiopublic.com/manoj-speaks-6n0kME" target="_blank" rel="noopener noreferrer">
-        <img src={radioRepublicIcon} alt="Radio Republic" className="icon" />
-      </a>
       <a href="https://www.podchaser.com/podcasts/manoj-speaks-1968371" target="_blank" rel="noopener noreferrer">
         <img src={podChaserIcon} alt="Podchaser" className="icon" />
       </a>
@@ -36,10 +33,6 @@ function App() {
       See the full list of episodes so far!
     </a>
     <p className="additional-links">
-      <a href="https://randomstrangertalk.com" target="_blank" rel="noopener noreferrer">
-        Also, I have another podcast: Random Stranger Talk
-      </a>
-      <br />
       <a href="https://bento.me/emanoj" target="_blank" rel="noopener noreferrer">
         Check out my other ventures, hobbies & activities!
       </a>
